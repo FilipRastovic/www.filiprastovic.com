@@ -1,0 +1,39 @@
+body {
+	background-image: url(/img/triangle.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	
+	@media (min-width: 768px) {
+		height: 100vh;
+	}
+
+	font-family: 'Lato', sans-serif;
+}
+
+.jumbotron {
+	background-color: #1F1D1D;
+	
+	@media (min-width: 768px) {
+		border: 4px solid #B9B9B9;
+	}
+}
+
+.profilna {
+	width: 151px;
+	height: auto;
+}
+
+hr {
+	border-color: white;
+	width: 2rem;
+	float: left;
+	margin-top: 0;
+}
+
+.columns {
+	padding-bottom: 6rem;
+
+	@media (min-width: 768px) {
+		padding-bottom: 0;
+	}
+}
