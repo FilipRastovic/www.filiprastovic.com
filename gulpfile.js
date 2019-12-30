@@ -72,7 +72,14 @@ function modules() {
     .pipe(gulp.dest('./vendor/simple-line-icons/fonts'));
   var simpleLineIconsCSS = gulp.src('./node_modules/simple-line-icons/css/**')
     .pipe(gulp.dest('./vendor/simple-line-icons/css'));
-  return merge(bootstrap, fontAwesomeCSS, fontAwesomeWebfonts, jquery, jqueryEasing, simpleLineIconsFonts, simpleLineIconsCSS);
+
+  //animate.css
+  var animatecss = gulp.src('./node_modules/animate.css/animate.css')
+    .pipe(gulp.dest('./vendor/animate.css/'));
+  //wowjs
+  var wowjs = gulp.src('./node_modules/wow.js/dist/wow.js')
+    .pipe(gulp.dest('./vendor/wowjs/'));
+  return merge(bootstrap, fontAwesomeCSS, fontAwesomeWebfonts, jquery, jqueryEasing, simpleLineIconsFonts, simpleLineIconsCSS, animatecss, wowjs);
 }
 
 // CSS task

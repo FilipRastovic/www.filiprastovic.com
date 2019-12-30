@@ -36,6 +36,7 @@
         "simple-line-icons": "2.4.1"
     },
     "devDependencies": {
+        "animate.css": "^3.7.2",
         "browser-sync": "2.26.7",
         "del": "5.1.0",
         "gulp": "4.0.2",
@@ -46,6 +47,7 @@
         "gulp-rename": "1.4.0",
         "gulp-sass": "4.0.2",
         "gulp-uglify": "3.0.2",
-        "merge-stream": "2.0.0"
+        "merge-stream": "2.0.0",
+        "wow.js": "^1.2.2"
     }
 }

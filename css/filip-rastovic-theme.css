@@ -64,3 +64,27 @@ hr {
     padding-bottom: 0;
   }
 }
+
+.cool-link {
+  display: inline-block;
+  color: #f3ff48 !important;
+  text-decoration: none;
+}
+
+.cool-link:hover {
+  text-decoration: none;
+}
+
+.cool-link::after {
+  content: '';
+  display: block;
+  width: 0;
+  height: 2px;
+  background: #f3ff48 !important;
+  -webkit-transition: width .3s;
+  transition: width .3s;
+}
+
+.cool-link:hover::after {
+  width: 60%;
+}
