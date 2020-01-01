@@ -7,7 +7,7 @@ body {
 		height: 100vh;
 	}
 
-	font-family: 'Lato', sans-serif;
+	font-family: 'Futura', sans-serif;
 }
 
 .jumbotron {
@@ -41,7 +41,8 @@ hr {
 .cool-link {
     display: inline-block;
     color: #f3ff48 !important;
-    text-decoration: none;
+	text-decoration: none;
+	letter-spacing: 1px;
 }
 
 .cool-link:hover {
@@ -60,4 +61,8 @@ hr {
 .cool-link:hover::after {
     width: 60%;
     //transition: width .3s;
+}
+
+.btn-link {
+	font-size: .8rem;
 }

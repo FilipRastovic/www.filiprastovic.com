@@ -1,19 +1,48 @@
 /*!
  * Start Bootstrap - Filip Rastovic v1.0.0 (https://filiprastovic.com)
- * Copyright 2013-2019 Filip Rastovic
+ * Copyright 2013-2020 Filip Rastovic
  * Licensed under MIT (https://github.com/BlackrockDigital/filip-rastovic/blob/master/LICENSE)
  */
+
+@font-face {
+  font-family: Futura;
+  src: url("../fonts/futura/FuturaLT-Light.ttf") format("truetype");
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: Futura;
+  src: url("../fonts/futura/FuturaLT.ttf") format("truetype");
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: Futura;
+  src: url("../fonts/futura/FuturaLT-Bold.ttf") format("truetype");
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: Futura;
+  src: url("../fonts/futura/FuturaLT-ExtraBold.ttf") format("truetype");
+  font-weight: 900;
+}
 
 .bg-dark {
   background-color: #1F1D1D !important;
 }
 
-.font-weight-bold {
-  font-weight: 900 !important;
+h1 {
+  font-size: 2.1rem;
 }
 
-h1 {
-  font-size: 2.4rem;
+h5 {
+  font-size: 1rem;
+}
+
+h6 {
+  font-size: .7rem;
+  letter-spacing: 1px;
 }
 
 .text-muted {
@@ -24,7 +53,7 @@ body {
   background-image: url(/img/triangle.jpg);
   background-size: cover;
   background-repeat: no-repeat;
-  font-family: 'Lato', sans-serif;
+  font-family: 'Futura', sans-serif;
 }
 
 @media (min-width: 768px) {
@@ -69,6 +98,7 @@ hr {
   display: inline-block;
   color: #f3ff48 !important;
   text-decoration: none;
+  letter-spacing: 1px;
 }
 
 .cool-link:hover {
@@ -87,4 +117,8 @@ hr {
 
 .cool-link:hover::after {
   width: 60%;
+}
+
+.btn-link {
+  font-size: .8rem;
 }
