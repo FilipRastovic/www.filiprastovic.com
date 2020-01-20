@@ -43,6 +43,7 @@ hr {
     color: #f3ff48 !important;
 	text-decoration: none;
 	letter-spacing: 1px;
+	
 }
 
 .cool-link:hover {
@@ -60,9 +61,8 @@ hr {
 
 .cool-link:hover::after {
     width: 60%;
-    //transition: width .3s;
 }
 
 .btn-link {
-	font-size: .8rem;
+	font-size: .6rem;
 }

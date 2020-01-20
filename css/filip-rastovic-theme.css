@@ -41,8 +41,12 @@ h5 {
 }
 
 h6 {
-  font-size: .7rem;
+  font-size: .6rem;
   letter-spacing: 1px;
+}
+
+p {
+  font-size: .85rem;
 }
 
 .text-muted {
@@ -120,5 +124,5 @@ hr {
 }
 
 .btn-link {
-  font-size: .8rem;
+  font-size: .6rem;
 }
