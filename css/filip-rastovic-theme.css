@@ -54,9 +54,9 @@ p {
 }
 
 body {
-  background-image: url(/img/triangle.jpg);
-  background-size: cover;
+  background-image: url(/img/hex-object-wallpaper.jpg);
   background-repeat: no-repeat;
+  background-size: cover;
   font-family: 'Futura', sans-serif;
 }
 
