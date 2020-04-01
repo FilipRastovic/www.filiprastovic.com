@@ -35,6 +35,8 @@ if ( ! defined( 'ABSPATH' ) ) {
 	gtag('config', 'UA-123056545-2');
 	</script>
 
+	<link rel="icon" href="<?php echo (get_bloginfo('stylesheet_directory'). '/favicon.png');?>" type="image/png" sizes="32x32">
+
 	<meta charset="<?php bloginfo( 'charset' ); ?>">
 	<?php $viewport_content = apply_filters( 'hello_elementor_viewport_content', 'width=device-width, initial-scale=1' ); ?>
 	<meta name="viewport" content="<?php echo esc_attr( $viewport_content ); ?>">
