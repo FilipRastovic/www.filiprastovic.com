@@ -178,3 +178,5 @@ if ( ! function_exists( 'hello_elementor_body_open' ) ) {
 		}
 	}
 }
+
+wp_enqueue_style ('theme-style', get_template_directory_uri().'/filiprastovic.css');
